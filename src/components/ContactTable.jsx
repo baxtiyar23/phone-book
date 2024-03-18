@@ -55,7 +55,7 @@ const ContactTable = ({
               defaultValue={text}
               onChange={(e) => setNoteInput(e.target.value)}
             />
-            <Button type="primary" onClick={() => handleNoteSave(record.id)}>
+            <Button  onClick={() => handleNoteSave(record.id)}>
               Save
             </Button>
           </>
